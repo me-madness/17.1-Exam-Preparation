@@ -1,4 +1,5 @@
 # First task from the lecture
+from math import ceil
 
 number_of_students = int(input())
 number_of_lectures = int(input())
@@ -13,7 +14,7 @@ for student in range(number_of_students):
         max_bonus_point = total_bonus
         max_student_attendances = student_attendances
         
-print(f"Max Bonus: {round(max_bonus_point)}")
+print(f"Max Bonus: {ceil(max_bonus_point)}")
 print(f"The student has attended {student_attendances} lectures")  
 
 # Second task from me      
