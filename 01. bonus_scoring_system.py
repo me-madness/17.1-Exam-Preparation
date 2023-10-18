@@ -14,4 +14,6 @@ for student in range(number_of_students):
         max_student_attendances = student_attendances
         
 print(f"Max Bonus: {round(max_bonus_point)}")
-print(f"The student has attended {student_attendances} lectures")        
+print(f"The student has attended {student_attendances} lectures")  
+
+# Second task from me      
