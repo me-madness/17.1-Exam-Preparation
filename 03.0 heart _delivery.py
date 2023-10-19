@@ -1,4 +1,5 @@
-
+# Heart Delivery
+# https://judge.softuni.org/Contests/Practice/Index/2031#2
 
 # First task from lecture
 
@@ -23,3 +24,6 @@ if sum(houses) == 0:
 else:
     houses = [int(house) for house in houses if int(house) != 0]
     print(f"Cupid has failed {len(houses)} places.")
+    
+# Second task from me
+    
