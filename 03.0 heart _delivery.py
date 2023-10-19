@@ -1,3 +1,7 @@
+
+
+# First task from lecture
+
 houses = [int(house) for house in input().split("@")]
 current_index = 0
 command = input()
