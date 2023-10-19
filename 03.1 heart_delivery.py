@@ -1,3 +1,9 @@
+# Heart Delivery
+# https://judge.softuni.org/Contests/Practice/Index/2031#2
+
+# First task from the lecture
+
+
 def cupid_gives_hearts(list_of_houses: list, cupid_index: int) -> list and int:
     if cupid_index not in range(len(list_of_houses)):
         cupid_index = 0
